@@ -21,7 +21,7 @@ body{
     width: 355px;
     height: 100px;
     position: absolute;
-    top:-5px;
+    top:-6px;
     left: 100px;
 }
 .logo2{
@@ -297,6 +297,8 @@ div.example1 {
  @keyframes keyframes2 {
      0%  {background-image: url("http://banhkemngon.vn/uploads/files/HP%20(6).png");}
      50% {background-image: url("http://banhkemngon.vn/uploads/files/HP%20(19).png");}
+     70%  {background-image: url("http://banhkemngon.vn/uploads/files/HP%20(6).png");}
+     100% {background-image: url("http://banhkemngon.vn/uploads/files/HP%20(19).png");}
 
  }
 
@@ -531,16 +533,19 @@ h3{
 }
 .footer3 img{
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: 60px ;
 }
 .footer4{
     color: white;
     margin-left: 210px;
-    margin-top: 20px;
+    margin-top: px;
+}
+.footer4 ul{
+    margin-left: -160px;
 }
 .chinh{
     margin-left: 300px;
-    margin-top: -260px ;
+    margin-top: -225px ;
 }
 .sach{
     font-size: 23px;
