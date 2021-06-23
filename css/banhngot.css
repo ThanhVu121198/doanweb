@@ -295,11 +295,10 @@ div.example1 {
      top: 1950px ;
   }
  @keyframes keyframes2 {
-     0%  {background-image: url("http://banhkemngon.vn/uploads/files/HP%20(6).png");}
-     50% {background-image: url("http://banhkemngon.vn/uploads/files/HP%20(19).png");}
-     70%  {background-image: url("http://banhkemngon.vn/uploads/files/HP%20(6).png");}
-     100% {background-image: url("http://banhkemngon.vn/uploads/files/HP%20(19).png");}
-
+     0%  {background-image: url("https://hstatic.net/153/1000104153/1000145997/footer_banner.png?v=1059");}
+     50% {background-image: url("https://file.hstatic.net/1000075078/article/1200x450_b5d13cf224d8493ab912a18d36482db2_1024x1024.jpg");}
+     70%  {background-image: url("https://cdn.shopify.com/s/files/1/0280/5366/7979/files/20200205-img_2014-3_0a734356-a30f-49db-b12b-97571a21180b_1500x.jpg?v=1620883324");}
+     100% {background-image: url("https://hstatic.net/153/1000104153/1000145997/home_bannertop_2.png?v=1059");}
  }
 
 .box2 .video{
@@ -354,7 +353,7 @@ div.example1 {
 
 form {
     display: block;
-    margin-top: 0em;
+    margin-top: 0;
 }
 label[for] {
     cursor: pointer;
@@ -538,7 +537,7 @@ h3{
 .footer4{
     color: white;
     margin-left: 210px;
-    margin-top: px;
+
 }
 .footer4 ul{
     margin-left: -160px;
