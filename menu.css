@@ -83,6 +83,13 @@ body{
 .hot{
     float: left;
 }
+.header h2{
+    color:  #932d5e;
+    font-family: caveat;
+    position: relative;
+    left: 1250px;
+    bottom: -55px ;
+}
 .topmenu{
     padding-top:10px     ;
     border-radius: 10px;
@@ -194,9 +201,9 @@ main{
 }
 .buy{
     position: absolute;
-    float: left;
+    float: none;
     top: 405px;
-    margin-left:-35px;
+    margin-left:105px;
     width: 70px;
     height: 30px;
     background-color: red;
