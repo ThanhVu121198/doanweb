@@ -168,27 +168,27 @@ body{
     object-fit: cover;
 }
 main{
-    font-family: caveat;
+    font-family:"Roboto Thin";
     width: 80%;
     float: none;
     margin-left: auto;
     margin-right: auto;
 }
 .contenmenu{
-    border-radius: 10%;
+    border-radius: 3px;
     float: left;
-    box-shadow: 10px 10px 5px 5px #d27d7d;
+    /*box-shadow: 10px 10px 5px 5px #d27d7d;*/
     text-align: center;
     height: 440px;
     width: calc(25% - 20px);
     margin:10px;
     background-color:#ffe7af;
     position: relative;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .contenmenu img{
-    border-radius: 10%;
+    border-radius: 3px;
     float: left;
     height: 270px;
     width: 100%;

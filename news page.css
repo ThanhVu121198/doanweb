@@ -9,7 +9,6 @@ body{
 }
 .main{
     height: 950px;
-    width: 100%;
 }
 .header{
     width: 100%;
@@ -94,38 +93,12 @@ body{
     height: 641px;
     background-size:cover ;
 }
-.bottom{
-    width: 100%;
-    height: 1350px;
-    margin-top: -50px;
-    border-radius: 15px;
-}
 #new{
     font-family: caveat;
     width: 130px;
     font-size: 50px;
     margin-left: 900px;
     margin-top: 30px;
-}
-.box1{
-    float: left;
-    width: 400px;
-    height: 560px;
-    border: 2px solid white;
-    background-color: #ffe7af;
-    margin: 37px;
-    position: relative;
-    border-radius: 15px;
-}
-.new a{
-    border-color: #abf103;
-}
-img{
-    border-radius: 15px;
-    border-radius: 15px;
-}
-h2{
-    margin: 10px;
 }
 .boxs{
     width: 300px;
@@ -193,34 +166,59 @@ h2{
     margin-right: 50px;
     margin-top: -40px ;
 }
-.txt{
+.txt {
     float: left;
     margin-left: 20px;
-}
-.page{
-    float: left;
-    width: 30px;
-    position: relative;
-    font-size: 20px;
-    border: 2px solid #abf103;
-    background-color: #abf103;
-    margin: 10px;
-    padding: 4px;
-    left: 900px;
-    border-radius: 15px;
+}.bottom{
+    height: 100%;
+    width: 100%;
+ }
+ .bottom .cap{
+     font-family: Caveat;
+     float: left;
+     margin-left: 600px;
+     margin-top: -50px;
+ }
+ .bottom .anh{
+     width: 700px;
+     height: 420px;
+     margin: 30px 600px;
+ }
+ .bottom .cap1{
+     font-family: Caveat;
+     font-size: 50px;
+     margin: 20px 300px;
+ }
+ .bottom .cap2{
+     font-family: Caveat;
+     font-size: 30px;
+     margin-left: 300px;
+     margin-right: 300px;
+ }
+ hr{
+     margin: 0 300px;
+     margin-top: 10px;
+ }
+ .bottom .comment{
+     float: left;
+     height: 180px;
+     width: 1300px;
+     margin: 30px 300px;
+     border: 2px solid #abf103;
+     background-color: #ffe7af;
+ }
+ label{
+     width: 650px;
+     height: 400px;
+ }
+.footer{
+    margin-top: 230px;
 }
 p {
     margin: 10px;
     font-family: caveat;
     font-size: 20px;
     color: chocolate;
-}
-
-.page a{
-    font-family: Caveat;
-    color: #ffe7af;
-    margin: 5px;
-    text-decoration: none;
 }
 .footer1{
     width: 100% ;
@@ -240,7 +238,7 @@ p {
 .footer4{
     color: white;
     margin-left: 210px;
-    margin-top: 10;
+    margin-top: 10px;
 }
 .footer4 ul{
     margin-left: -160px;
@@ -291,5 +289,3 @@ p {
     text-decoration: none;
     color: black;
 }
-
-
