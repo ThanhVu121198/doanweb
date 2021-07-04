@@ -56,7 +56,8 @@ function header() {
         "                        </a>\n" +
         "                    </div>\n" +
         "                </div>\n" +
-        "            </div>";
+        "            </div>"
     document.getElementById("row").innerHTML = ct;
 }
 header();
+
