@@ -46,7 +46,7 @@ function header() {
         "                             </span>\n" +
         "                        </a>\n" +
         "                        <a href=\"#\">\n" +
-        "                            <div class=\"buy\">\n" +
+        "                            <div class=\"buy0\">\n" +
         "                                <img src=\"images/iconfinder_2703085_bag_cart_ecommerce_shop_icon_20px.png\" height=\"20\"\n" +
         "                                     width=\"20\"/>\n" +
         "                            </div>\n" +
