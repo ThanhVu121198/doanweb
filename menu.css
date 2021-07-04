@@ -5,7 +5,9 @@
 }
 body{
     min-width:1000px;
-    background-color:;
+    width: 100%;
+    background-color:#f8f2e8;
+    font-family: Roboto;
 }
 .main{
     width: 100%;
@@ -121,26 +123,105 @@ body{
     top:-47px;
     margin-left:87%;
 }
+.toplink{
+    height: 50px ;
+    width: 100%;
+    background-color: rgba(74, 29, 34, 0.9);
+    border: 1px solid #4a1d22;
+    position: sticky;
+    z-index: 1000;
+    backface-visibility: hidden;
+    top: -1px ;
+    text-align: center;
+}
+.nav > li{
+    display: inline-block;
+}
+.nav li{
+    font-family:Roboto;
+    list-style: none;
+    position: relative;
+}
+.nav li a{
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 50px ;
+    padding: 0 34px ;
+    display: block;
+
+}
+.nav li:hover .subnav{
+    display: block;
+}
+.nav > li:hover > a{
+    color: #950000;
+    background-color: #ffffff;
+}
+.nav .subnav{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8) ;
+}
+.nav .subnav a{
+    color: #582727;
+    padding: 0 30px;
+    line-height: 38px ;
+}
+.nav .nav-arrow-down{
+    font-size: 13px;
+}
+
+.nav .subnav li:hover{
+    background-color: #763f3f;
+}
+.nav .subnav li a:hover{
+    color: white;
+}
 main{
     font-family:Roboto;
     width: 80%;
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
+    float:right;
 }
 .contenmenu{
     border-radius: 3px;
-    float: left;
+    float:left;
+    background-color:white;
     /*box-shadow: 10px 10px 5px 5px #d27d7d;*/
     text-align: center;
     height: 440px;
-    width: calc(25% - 20px);
-    margin:10px;
-    background-color:#ffe7af;
+    width: calc(20%);
+    margin:15px;
     position: relative;
     font-size: 16px;
 }
+.topmenu{
+    border-radius: 10%;
+    text-align: center;
+    line-height: 40px;
+    background-color: white;
+    float: left;
+    width:15%;
+    height:300px;
+    position:fixed;
+    margin:30px;
 
+}
+.topmenu ul{
+    list-style: none;
+}
+.topmenu li a{
+    text-decoration: none;
+    color: black;
+}
+.topmenutop{
+    font-size: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    line-height: 45px;
+    height: 50px;
+    background:rgba(74, 29, 34, 0.9);
+}
 .contenmenu img{
     border-radius: 3px;
     float: left;
@@ -148,7 +229,7 @@ main{
     width: 100%;
 }
 .contenmenu h2{
-    text-align: center;
+    text-align:center;
 }
 .contenmenu p{
     padding: 2px;
@@ -156,18 +237,26 @@ main{
 .buy{
     position: absolute;
     float: none;
-    top: 405px;
-    margin-left:105px;
-    width: 70px;
-    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    top:400x;
+    width: 100px;
+    height: 40px;
     background-color: red;
     border-radius:8px;
 }
-.buy:hover{
-    background-color: #e8ee1b;
+.price{
+    width: 50%;
+    height: 100%;
 }
-.buy a:hover{
-    color: #950000;
+.post{
+    width: 50%;
+    height: 100%;
+}
+.post image{
+    width: 15px;
+    height: 15px;
+    float: left;
 }
 .buy a{
     text-decoration: none;
