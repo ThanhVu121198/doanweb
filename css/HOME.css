@@ -407,17 +407,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 .summer{
     text-align: center;
 
@@ -431,6 +420,7 @@
 .summer-khung{
     margin-top: 60px;
     overflow: hidden;
+    margin-left: 20p;
 }
 .summer-box{
     overflow: hidden;
