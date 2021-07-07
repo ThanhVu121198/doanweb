@@ -107,7 +107,7 @@ body{
     position: relative;
     top: -30px;
 }
-.buy0{
+.buy{
     float: left;
     margin-left:80%;
     margin-top: -58px;
@@ -233,6 +233,7 @@ main{
     font-size: 16px;
 }
 .topmenu{
+    margin-top: 12px;
     border-radius: 10%;
     text-align: center;
     line-height: 50px;
@@ -240,8 +241,8 @@ main{
     float: left;
     width:15%;
     height:270px;
-    position:fixed;
-    top:50%;
+    position:sticky;
+    top:1%;
     margin-left: -270px;
 
 }
@@ -277,7 +278,7 @@ main{
 .contenmenu p{
     padding: 2px;
 }
-.buy{
+.buys{
     position: absolute;
     float: left;
     width: 165px;
@@ -304,7 +305,7 @@ main{
     margin-top: 7px;
     margin-left: 12px;
 }
-.buy a{
+.buys a{
     text-decoration: none;
     color: snow;
 }
