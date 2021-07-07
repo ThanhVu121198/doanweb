@@ -1,13 +1,11 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;font-family: Roboto;
+
 }
 body{
-    min-width:1000px;
-    width: 100%;
     background-color:#f8f2e8;
-    font-family: Roboto;
 }
 .main{
     width: 100%;
@@ -181,7 +179,7 @@ body{
 .banner{
     height: 300px;
     padding: 50px 0;
-    background: url(//theme.hstatic.net/1000313040/1000406925/14/breadcrumb_bg.png?v=1719);
+    background: url("//theme.hstatic.net/1000313040/1000406925/14/breadcrumb_bg.png?v=1719");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -215,115 +213,114 @@ body{
     color: white;
 }
 main{
-    height: 5300px;
-    font-family:Roboto;
-    width: 80%;
-    float:right;
+    font-family: Roboto;
     margin-top: 50px;
-}
-.contenmenu{
-    border-radius: 3px;
-    float:left;
-    background-color:white;
-    /*box-shadow: 10px 10px 5px 5px #d27d7d;*/
-    text-align: center;
-    height: 440px;
-    width: calc(27%);
-    margin:15px;
-    position: relative;
-    font-size: 16px;
-}
-.topmenu{
-    border-radius: 10%;
-    text-align: center;
-    line-height: 50px;
     background-color: white;
-    float: left;
-    width:15%;
-    height:270px;
-    position:sticky;
-    top: 1%;
-    margin-left: -270px;
-    margin-top: 12px;
-
-}
-.topmenu li :hover {
-    color: #c0c906;
-}
-.topmenu ul{
-    list-style: none;
-}
-.topmenu li a{
-    font-size: 20px;
-    font-weight: 700;
-    text-decoration: none;
-    color: black;
-}
-.topmenutop{
-    color: white;
-    font-size: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    line-height: 45px;
-    height: 50px;
-    background:rgba(74, 29, 34, 0.9);
-}
-.contenmenu img{
-    border-radius: 3px;
-    float: left;
-    height: 270px;
-    width: 100%;
-}
-.contenmenu h2{
-    font-size: 20px;
-    text-align:center;
-}
-.contenmenu p{
-    padding: 2px;
-}
-.buys{
-    position: absolute;
-    float: left;
-    width: 165px;
-    height: 40px;
-    top:400px;
-}
-.price{
-    border-radius: 5px;
-    font-size: 20px;
-    line-height: 40px;   ;
-    float: left;
-    background-color:#c0c906;
-    width: 100px;
-    height: 40px;
-    color: white;
-}
-.post{
-    border-radius: 5px;
-    float: left;
-    background-color:#582727;
-    width: 60px;
-    height: 100%;
-}
-.post p{
-    margin-top: 7px;
-    margin-left: 12px;
-}
-.buy a{
-    text-decoration: none;
-    color: snow;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
 }
 .container{
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
+    padding: 0;
     float: none;
 }
-/*.contenmenu  image:hover  h2{*/
-/*    -webkit-transform: scale(1.05);*/
-/*    transform: scale(1.05);*/
-/*    color: #c0c906;*/
-/*}*/
+.bl{
+    background-color:white;
+    float: left;
+    width: 40%;
+    height:300px;
+    border:10px solid white;
+    border-radius: 10px;
+}
+.bl img{
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height:280px;
+}
+.bl:hover{
+    transform:scale(1.2);
+}
+.br{
+    position: relative;
+    line-height: 20px;
+    padding: 20px;
+    border: 2px solid snow;
+    border-radius: 10px;
+    background-color:white;
+    float: right;
+    width:55%;
+}
+.conten h2{
+    color: black;
+    font-size: 28px;
+}
+.conten h3{
+    margin-top: 20px;
+}
+.checkbox{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.check{
+    font-weight: 400;
+    line-height: 2px;
+    margin: 10px;
+    height: 15px;
+    width: 130px;
+    float: left;
+    border: 1px solid black;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10%;
+}
+.sl{
+    position: relative;
+    float: left;
+    margin: 10px;
+    margin-top: 50px;
+    margin-left: -310px;
+    padding: 10px;
+}
+.sl input{
+    float: left;
+    text-align: center;
+    width: 80px;
+    height: 40px;
+}
+.sb{
+    margin-left: 100px;
+    text-align: center;
+    float: left;
+    height: 40px;
+    width: 170px;
+    background-color:#582727;
+    line-height: 35px;
+    position: absolute;
+}
+.sb a {
+    padding: 20px;
+    color: snow;
+    text-decoration: none;
+    font-size: 30px;
+}
+.bot{
+    line-height:30px;
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+    font-weight: 700;
+    background-color:white;
+    border: 1px solid snow;
+    border-radius: 10px;
+    padding: 40px;
+}
 .footer1{
+    margin-top: 30px;
     float: left;
     width: 100% ;
     height: 430px;
