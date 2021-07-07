@@ -5,6 +5,7 @@
 }
 body{
     min-width:1000px ;
+    background-color:#f8f2e8;
 }
 .main{
     width: 100%;
@@ -49,7 +50,6 @@ body{
 }
 .link{
     margin-left: 39%;
-
 }
 .fa-phone{
     background-color: white;
@@ -211,12 +211,8 @@ body{
     text-align: center;
     color: white;
 }
-body{
-    background-color: whitesmoke;
-}
 .section{
-    background-image: url("../images/nen.webp");
-    color: white;
+    color:black;
 }
 .video0{
     width: 100%;
@@ -250,12 +246,11 @@ body{
     margin-left: 300px;
 }
 .footer1{
-    margin-top: -20px;
+    margin-top: 70px;
     float: left;
     width: 100% ;
     height: 430px;
     background-image: url("https://theme.hstatic.net/1000313040/1000406925/14/footer-bg.png?v=1719");
-    background-repeat: no-repeat;
 }
 .footer3{
     width: 100%;
@@ -268,15 +263,16 @@ body{
     margin-left: 60px ;
 }
 .footer4{
+    font-family: Roboto;
     color: white;
     margin-left: 210px;
-    margin-top: px;
+
 }
 .footer4 ul{
     margin-left: -160px;
 }
 .chinh{
-    margin-left: 300px;
+    margin-left: 200px;
     margin-top: -225px ;
 }
 .sach{
@@ -307,8 +303,24 @@ body{
     margin-left: 350px;
 }
 .footer2{
-    float: left;
     width: 100%;
     height: 30PX;
     background-color: #500d0d;
 }
+.link-footer{
+    width: 230px;
+    float: left;
+    margin-left: 650px;
+    margin-top: -150px ;
+}
+.txt{
+    float: right;
+    margin-left: 20px;
+}
+.footer2{
+    float: left;
+    font-family: Roboto;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}}
