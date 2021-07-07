@@ -269,9 +269,9 @@ main{
 .check{
     font-weight: 400;
     line-height: 2px;
-    width: calc(25%-5px);
     margin: 10px;
     height: 15px;
+    width: 130px;
     float: left;
     border: 1px solid black;
     text-align: left;
@@ -282,6 +282,8 @@ main{
     position: relative;
     float: left;
     margin: 10px;
+    margin-top: 50px;
+    margin-left: -310px;
     padding: 10px;
 }
 .sl input{
@@ -289,7 +291,7 @@ main{
     text-align: center;
     width: 80px;
     height: 40px;
- }
+}
 .sb{
     margin-left: 100px;
     text-align: center;
@@ -315,7 +317,6 @@ main{
     background-color:white;
     border: 1px solid snow;
     border-radius: 10px;
-    text-align: center;
     padding: 40px;
 }
 .footer1{
