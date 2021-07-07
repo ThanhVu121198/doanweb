@@ -213,6 +213,10 @@ body{
 }
 .section{
     color:black;
+    width: 80%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 .video0{
     width: 100%;
