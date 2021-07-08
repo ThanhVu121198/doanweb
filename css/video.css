@@ -7,7 +7,6 @@
     font-family: Roboto;
 }
 body{
-    min-width:2000px ;
     background-color:#f8f2e8;
 }
 .main{
@@ -212,46 +211,60 @@ body{
     color: white;
 }
 .section{
+    margin-top: 80px;
     color:black;
-    width: 70%;
-    float: none;
-    margin-left: 400px;
+    width: 80%;
+    float:none;
+    margin-right: auto;
+    margin-left: auto;
+}
+.box{
+    background-color: white;
+    border-radius: 10px;
 }
 .vd{
-    float: left;
-    width: 30%;
-    height: 650px;
-    margin-top: 20px;
+    border-radius: 10px;
+    float:left;
+    background-color:white;
+    /*box-shadow: 10px 10px 5px 5px #d27d7d;*/
+    text-align: center;
+    height:350px;
+    width: 28%;
+    margin:30px;
+    position: relative;
+    font-size: 16px;
+}
+.vd h2{
+    line-height: 30px;
+    margin-top: 5%;
 }
 .video2{
-    background-color: white;
-    width: 400px;
-    height: 360px;
-    border-radius: 10px;
+    width: 100%;
+    height: 50%;
 }
-
 .vd img{
-    width: 350px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
 }
-.vd .click{
-    background-color: #582727;
-    width: 350px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    position: relative;
-    top: 43px;
-}
-.vd .click a{
-    font-size: 24px;
+.click{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     color: white;
-    text-decoration: none;
-    font-family: Roboto;
+    text-decoration: white;
+    line-height: 30px;
+    width: 100%;
+    height:10%;
+    float: left;
+    margin-top: 24px;
+    background-color: #582727;
 }
-h2{
-    font-family: Roboto;
+.click a{
+    color: white;
+    text-decoration: white;
+}
+.click :hover{
+    color: #c0c906;
 }
 .footer1{
     margin-top: 70px;
