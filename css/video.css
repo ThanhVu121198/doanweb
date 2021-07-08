@@ -3,8 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+.html{
+    font-family: Roboto;
+}
 body{
-    min-width:1000px ;
+    min-width:2000px ;
     background-color:#f8f2e8;
 }
 .main{
@@ -16,7 +19,6 @@ body{
     background: rgba(74, 29, 34, 0.9);
 }
 .header_con{
-
     width: 75% ;
     height: 100%;
     margin: 0 12%;
@@ -61,7 +63,6 @@ body{
     margin-right: 10px;
     margin-top: -35px;
     float: left;
-
 }
 .phone{
     position: relative;
@@ -168,7 +169,6 @@ body{
 .nav .nav-arrow-down{
     font-size: 13px;
 }
-
 .nav .subnav li:hover{
     background-color: #763f3f;
 }
@@ -213,41 +213,45 @@ body{
 }
 .section{
     color:black;
-    width: 80%;
+    width: 70%;
     float: none;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 400px;
 }
-.video0{
-    width: 100%;
-    margin-left: 10px;
-}
-.video0 h1{
-    margin-left: 20px;
-    margin-top: 25px;
-}
-.video1{
+.vd{
+    float: left;
+    width: 30%;
+    height: 650px;
     margin-top: 20px;
-    font-size: 18px;
-    text-indent: 10px;
 }
 .video2{
+    background-color: white;
+    width: 400px;
+    height: 360px;
+    border-radius: 10px;
+}
+
+.vd img{
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+}
+.vd .click{
+    background-color: #582727;
+    width: 350px;
+    height: 50px;
     text-align: center;
-    margin-top: 20px;
+    line-height: 50px;
+    position: relative;
+    top: 43px;
 }
-.quangcao{
-    margin-top: 15px;
-    margin-left: 450px;
+.vd .click a{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    font-family: Roboto;
 }
-.quangcao0{
-    background-image: url("../images/quangcao2.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    text-align: left;
-}
-.quangcao3{
-    margin: 20px;
-    margin-left: 300px;
+h2{
+    font-family: Roboto;
 }
 .footer1{
     margin-top: 70px;
@@ -270,7 +274,6 @@ body{
     font-family: Roboto;
     color: white;
     margin-left: 210px;
-
 }
 .footer4 ul{
     margin-left: -160px;
