@@ -261,10 +261,11 @@ body{
 }
 .click a{
     color: white;
-    text-decoration: white;
+    text-decoration:none;
 }
 .click :hover{
-    color: #c0c906;
+    color:#c0c906;
+
 }
 .footer1{
     margin-top: 70px;
