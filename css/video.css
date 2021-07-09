@@ -7,7 +7,6 @@
     font-family: Roboto;
 }
 body{
-    min-width:2000px ;
     background-color:#f8f2e8;
 }
 .main{
@@ -233,7 +232,6 @@ body{
 .vd img{
     width: 350px;
     height: 200px;
-    border-radius: 10px;
 }
 .vd .click{
     background-color: #582727;
