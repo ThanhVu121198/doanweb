@@ -3,11 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-.html{
-    font-family: Roboto;
-}
 body{
+    min-width:1000px;
+    width: 100%;
     background-color:#f8f2e8;
+    font-family: Roboto;
 }
 .main{
     width: 100%;
@@ -18,6 +18,7 @@ body{
     background: rgba(74, 29, 34, 0.9);
 }
 .header_con{
+
     width: 75% ;
     height: 100%;
     margin: 0 12%;
@@ -51,6 +52,7 @@ body{
 }
 .link{
     margin-left: 39%;
+
 }
 .fa-phone{
     background-color: white;
@@ -62,6 +64,7 @@ body{
     margin-right: 10px;
     margin-top: -35px;
     float: left;
+
 }
 .phone{
     position: relative;
@@ -168,6 +171,7 @@ body{
 .nav .nav-arrow-down{
     font-size: 13px;
 }
+
 .nav .subnav li:hover{
     background-color: #763f3f;
 }
@@ -210,50 +214,99 @@ body{
     text-align: center;
     color: white;
 }
-.section{
-    color:black;
-    width: 70%;
-    float: none;
-    margin-left: 400px;
+/*--------------------PHẦN MAIN-------------------*/
+
+.main{
+    width: 100%;
+    height: 1700px;
 }
-.vd{
-    float: left;
-    width: 30%;
-    height: 650px;
+.slider{
+    background-image: url("https://goldenapple.com.vn/wp-content/themes/goldenapple/images/bg-separe.png");
+    height: 19px;
+    width: 994px;
     margin-top: 20px;
+    margin-left: 320px;
 }
-.video2{
+.videos{
+    width: 1080px;
+    height: 1450px;
+    margin-top: 20px;
+    margin-left: 220px;
+}
+.video{
+    width: 740px;
+    height: 1500px;
+}
+.video1{
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+    width: 326px;
+    height: 258px;
+    background-color: black;
+}
+.video1 a{
+    text-decoration: none;
+}
+.ten{
+    text-align: center;
+    margin-top: 10px;
+    color: #c0c906;
+}
+.library-tong{
+    position: sticky;
+    top: 50px;
+}
+.library{
+    width: 331px;
+    height: 120px;
+    margin-left: 750px;
+    margin-top: -1500px;
+}
+.box1{
+    width: 100%;
+    height: 40px;
+    background-color: #763f3f;
+}
+.box1 h2{
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+    line-height: 40px;
+}
+.box2{
+    width: 100%;
+    height: 100%;
     background-color: white;
-    width: 400px;
-    height: 360px;
-    border-radius: 10px;
+}
+.box3{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #e8e7e7;
+    text-align: center;
+}
+.box3 a{
+    text-decoration: none;
+}
+.box3 h3{
+    color: black;
+    line-height: 40px;
+}
+.box3 > a:hover > h3{
+    color: #c0c906;
 }
 
-.vd img{
-    width: 350px;
-    height: 200px;
-}
-.vd .click{
-    background-color: #582727;
-    width: 350px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    position: relative;
-    top: 43px;
-}
-.vd .click a{
-    font-size: 24px;
-    color: white;
-    text-decoration: none;
-    font-family: Roboto;
-}
-h2{
-    font-family: Roboto;
-}
+
+
+
+
+
+
+
+
+
+/*--------------------PHẦN FOOTER------------------*/
 .footer1{
-    margin-top: 70px;
-    float: left;
     width: 100% ;
     height: 430px;
     background-image: url("https://theme.hstatic.net/1000313040/1000406925/14/footer-bg.png?v=1719");
@@ -272,6 +325,7 @@ h2{
     font-family: Roboto;
     color: white;
     margin-left: 210px;
+
 }
 .footer4 ul{
     margin-left: -160px;
@@ -291,7 +345,7 @@ h2{
 }
 .sach3{
     margin-left: 300px;
-    margin-top: -180px;
+    margin-top: -210px;
 }
 .sach4{
     font-size: 23px;
@@ -323,7 +377,6 @@ h2{
     margin-left: 20px;
 }
 .footer2{
-    float: left;
     font-family: Roboto;
     color: white;
     text-align: center;
