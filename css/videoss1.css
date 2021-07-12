@@ -1,22 +1,16 @@
-/*--------------------PHẦN HEADER-------------------*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.container-1{
-    margin-top: -20px;
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
+body{
+    min-width:1000px;
     width: 100%;
-    height: 470px;
-    background-color: #f8f2e8;
+    background-color:#f8f2e8;
+    font-family: Roboto;
 }
-.container-header{
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
+.main{
+    width: 100%;
 }
 .header{
     width: 100%;
@@ -72,9 +66,6 @@
     float: left;
 
 }
-.fa-phone img{
-    margin-top: -5px;
-}
 .phone{
     position: relative;
     top: -30px;
@@ -91,17 +82,14 @@
     border-radius: 100%;
     text-align: center;
     line-height: 42px;
-    margin-left: 26%;
-    margin-top: -60px;
-}
-.fa-con img{
-    margin-top: -8px;
+    margin-left: 25%;
+    margin-top: -58px;
 }
 .fa-con1{
     font-family: Roboto;
-    margin-left: 230px;
+    margin-left: 25%;
     position: relative;
-    top: -32px;
+    top: -30px;
 }
 .taikhoan{
     background-color: white;
@@ -111,38 +99,30 @@
     text-align: center;
     line-height: 42px;
     margin-left: 59%;
-    margin-top: -63px;
-}
-.taikhoan img{
-    margin-top: -7px;
+    margin-top: -58px;
 }
 .taikoan1{
     font-family: Roboto;
     margin-left: 59%;
     position: relative;
-    top: -32px;
+    top: -30px;
 }
 .buy{
+    float: left;
+    margin-left:80%;
+    margin-top: -58px;
     background-color: white;
     width: 36px;
     height: 36px;
     border-radius: 100%;
     text-align: center;
     line-height: 42px;
-    margin-left: 81%;
-    margin-top: -63px;
-}
-.buy img{
-    margin-top: -7px;
 }
 .buy1{
-    margin-left: 81%;
     position: relative;
-    top: -31px;
+    top:-47px;
+    margin-left:87%;
 }
-
-
-
 .toplink{
     height: 50px ;
     width: 100%;
@@ -158,12 +138,11 @@
     display: inline-block;
 }
 .nav li{
-    font-family: Roboto;
+    font-family:Roboto;
     list-style: none;
     position: relative;
 }
 .nav li a{
-    font-size: 16px;
     text-decoration: none;
     color: #ffffff;
     line-height: 50px ;
@@ -202,7 +181,7 @@
 .banner{
     height: 300px;
     padding: 50px 0;
-    background: url("//theme.hstatic.net/1000313040/1000406925/14/breadcrumb_bg.png?v=1719");
+    background: url(//theme.hstatic.net/1000313040/1000406925/14/breadcrumb_bg.png?v=1719);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -236,57 +215,98 @@
     color: white;
 }
 /*--------------------PHẦN MAIN-------------------*/
-.infor2{
-    font-size: 16px;
-}
+
 .main{
     width: 100%;
-    height: 150px;
+    height: 1000px;
 }
-.infor31 button{
-    width: 200px;
-    height: 50px;
-    text-align: center;
-    color: white;
-    background-color: #4c1a44;
+.slider{
+    background-image: url("https://goldenapple.com.vn/wp-content/themes/goldenapple/images/bg-separe.png");
+    height: 19px;
+    width: 994px;
+    margin-top: 20px;
+    margin-left: 320px;
 }
-.tabmenu ul{
-    background-color: brown;
+.videos{
+    width: 1080px;
+    height: 1450px;
+    margin-top: 20px;
+    margin-left: 220px;
 }
-.tab-content{
-    height: 400px;
+.video{
+    width: 740px;
+    height: 1500px;
 }
-.form-container{
-    background-color: #aab3c4;
-    height: 320px;
-}
-.form1{
-    text-align: center;
-    background-color: brown;
-    line-height: 2px;
-    width: 277px;
-    height: 29px;
-    position: relative;
-    right: 15px;
-}
-.information{
-    text-align: center;
-    color: white;
-    font-size: 16px;
-    position: relative;
-    top: 15px;
-}
-.detail{
-    margin-top: 8px;
-    line-height: 23px;
-}
-.sub{
-    float: right;
-}
-/*--------------------PHẦN FOOTER-------------------*/
-.footer1{
+.video1{
+    margin-left: 30px;
     margin-top: 30px;
     float: left;
+    width: 326px;
+    height: 258px;
+    background-color: black;
+}
+.video1 a{
+    text-decoration: none;
+}
+.ten{
+    text-align: center;
+    margin-top: 10px;
+    color: #c0c906;
+}
+.library-tong{
+    position: sticky;
+    top: 50px;
+}
+.library{
+    width: 331px;
+    height: 120px;
+    margin-left: 750px;
+    margin-top: -1500px;
+}
+.box1{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+}
+.box1 h2{
+    color: black;
+    font-family: Roboto;
+    text-align: center;
+    line-height: 40px;
+    background-color: #763f3f;
+}
+.box2{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.box3{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #e8e7e7;
+    text-align: center;
+}
+.box3 a{
+    text-decoration: none;
+}
+.box3 .box3co{
+    color: #c0c906;
+}
+.box3 h3{
+    color: black;
+    line-height: 40px;
+}
+.box3 > a:hover > h3{
+    color: #c0c906;
+}
+
+
+
+
+
+
+/*--------------------PHẦN FOOTER------------------*/
+.footer1{
     width: 100% ;
     height: 430px;
     background-image: url("https://theme.hstatic.net/1000313040/1000406925/14/footer-bg.png?v=1719");
@@ -357,7 +377,6 @@
     margin-left: 20px;
 }
 .footer2{
-    float: left;
     font-family: Roboto;
     color: white;
     text-align: center;
