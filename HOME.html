@@ -2,40 +2,86 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>H0ME</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/HOME.css">
 </head>
 <body>
 <div class="container-1">
     <div class="container-header">
         <div class="header" id="row">
-           <script type="text/javascript" src="Header.js"></script>
+            <script type="text/javascript" src="Header.js"></script>
         </div>
     </div>
-    <div class="toplink">
-        <ul class="nav">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">
-                MENU
-                <i class="nav-arrow-down ti-angle-down"></i>
-            </a>
-                <ul class="subnav">
-                    <li><a href="#">CUPCAKE</a></li>
-                    <li><a href="#">PIE</a></li>
-                    <li><a href="#">DONUT</a></li>
-                    <li><a href="https://doanweb11.herokuapp.com/cheesecake/cheat%20cake.html">CHEESECAKE</a></li>
-                </ul>
-            </li>
-            <li><a href="#">NEWS</a></li>
-            <li><a href="#">ABOUT COMPANY</a></li>
-            <li><a href="#"> VIDEOS</a></li>
-            <li><a href="#">BAKING AND PASTRY ARTS</a></li>
-        </ul>
+    <div class="toplink" id="tl">
+        <script type="text/javascript" src="top-link.js"></script>
     </div>
-    <div class="banner"></div>
+
+<!--------------------BANNER-------------------->
+
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/ms_banner_img1.jpg" alt="...">
+                <div class="carousel-caption">
+                    ...
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/ms_banner_img2.jpg" alt="...">
+                <div class="carousel-caption">
+                    ...
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/ms_banner_img3.jpg" alt="...">
+                <div class="carousel-caption">
+                    ...
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/ms_banner_img4.jpg" alt="...">
+                <div class="carousel-caption">
+                    ...
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/ms_banner_img5.jpg" alt="...">
+                <div class="carousel-caption">
+                    ...
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+<!-------------------BANNER AND------------------>
+
     <div class="container-main">
         <div class="main">
             <!-------------------------------SUMMER COLLECTION 2021------------------------------>
@@ -59,7 +105,7 @@
                 </div>
                 <!------------END----------->
                 <div class="summer">
-                    <h1>SUMMER COLLECTION 2021</h1>
+                    <h1><b>SUMMER COLLECTION 2021</b></h1>
                 </div>
                 <div class="summer-khung">
                     <div class="summer-box"><a href="#"><span class="img">
@@ -243,7 +289,7 @@
                     </a></div>
                     <!--------------------------- GATEAUX CREAM------------------------------>
                     <div class="summer1">
-                        <h1>GATEAUX CREAM</h1>
+                        <h1><b>GATEAUX CREAM</b></h1>
                     </div>
                     <div class="summer-box"><a href="#"><span class="img">
                         <img src="images/1__1__72ac901740aa4ae79581213a5dd3a8f9_large.png" height="255" width="257"/>
@@ -325,7 +371,7 @@
                         </div>
                     </span></a></div>
                     <div class="summer-box"><a href="#"><span class="img">
-                        <img src="images/5_13bcdbfc09304024ba0e14acf5db18e1_large (1).png" height="255" width="257"/>
+                        <img src="images/57_7dc32283823c4330970efd5457d7552a_large.png" height="255" width="257"/>
                         <div class="ba"><b>RED VELVET CAKE</b></div>
                         <p>KT024</p>
                         <div class="boxe">
@@ -467,7 +513,7 @@
             <!-----------------------------TOP NEW------------------------------>
             <div class="new">
                 <div class="summer1">
-                    <h1>TOP NEWS OF THE WEEK</h1>
+                    <h1><b>TOP NEWS OF THE WEEK</b></h1>
                 </div>
                 <div class="new1"><a href="#">
                     <img src="images/z2566591965162_715286e5ab484f6c984263879a2c1711.jpg" height="200" width="100%"/>
@@ -548,78 +594,8 @@
     </div>
     <!-------------------FOOTER-------------------->
     <div class="container-footer">
-        <div class="footer">
-            <div class="footer1">
-                <div class="footer3">
-                    <img src="images/logo.webp" height="143" width="143"/>
-                    <div class="footer4">
-                        <ul>
-                            <li>Address: 150/ Nguyễn Trãi, Phường xyz,<br/>
-                                Thành phố Hà Nội, Việt Nam</li>
-                            <li>Hotline: 035 805 4499</li>
-                            <li>Website: https://tamlong.com.vn</li>
-                            <li>Email: info@tamlong.com.vn</li>
-                        </ul>
-                        <div class="chinh">
-                            <div class="sach">POLICY ONLY</div>
-                            <div class="sach2">
-                                <p>General policies and regulations</p>
-                                <p>Transaction and payment policy</p>
-                                <p>Return Policy</p>
-                                <p>Privacy Policy</p>
-                                <p>Shipping Policy</p>
-                            </div>
-                            <div class="sach3">
-                                <div class="sach4">ANH HOA BAKERY</div>
-                                <div class="sach5">
-                                    <p>Name of unit: Anh Hoa Cake Joint Stock<br/>
-                                        Company Business registration </p>
-                                    <p>certificate number: 0104802706 Date of <br/>
-                                        issue: July 21, 2010 Place of issue: </p>
-                                    <p>Department of Planning and Investment<br/>
-                                        of Ho Chi Minh City. Hanoi</p>
-                                </div>
-                                <div class="sach6">
-                                    <p>
-                                        EVERY MONTH WE HAVE DISCOUNTS<br/>
-                                        OF SERVICES AND PRODUCTS TO<br/>
-                                        Grateful to CUSTOMERS. TO UPDATE<br/>
-                                        ON THIS DISCOUNT BOOKING IN TIMELY,<br/>
-                                        PLEASE ENTER YOUR EMAIL ADDRESS IN<br/>
-                                        THE BOX BELOW
-                                    </p>
-                                </div>
-                                <div class="sach7">
-                                    <img src="images/hg_img1.png" height="67" width="190"/>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="logo4">
-                    <div class="link-footer">
-                        <p class="txt"><a href="#">
-                            <img src="images/videos/icons/iconfinder_3225180_app_logo_media_popular_social_icon_24px.png"
-                                 height="27" width="27"/>
-                        </a></p>
-                        <p class="txt"><a href="#">
-                            <img src="images/videos/icons/iconfinder_3225183_app_logo_media_popular_social_icon_24px.png"
-                                 height="27" width="27"/>
-                        </a></p>
-                        <p class="txt"><a href="#">
-                            <img src="images/videos/icons/iconfinder_3225191_app_instagram_logo_media_popular_icon_24px.png"
-                                 height="27" width="27"/>
-                        </a></p>
-                        <p class="txt"><a href="#">
-                            <img src="images/videos/icons/iconfinder_3225194_app_facebook_logo_media_popular_icon_24px.png"
-                                 height="27" width="27"/>
-                        </a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="footer2">
-                Copyrights © 2018 by Anhhoa Bakery.
-            </div>
+        <div class="footer" id="ft">
+            <script type="text/javascript" src="footer.js"></script>
         </div>
     </div>
     <div id="back-to-top" class="text-center medium--hide small--hide" style="display: block"><a href="#">
@@ -628,5 +604,13 @@
         </i>
     </a></div>
 </div>
+
+<script src="JS/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    $('.carousel').carousel({
+        interval: 2500
+    })
+</script>
 </body>
 </html>

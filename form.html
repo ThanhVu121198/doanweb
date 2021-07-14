@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="icon">
+            <p>
+                <img src="https://cdn1.iconfinder.com/data/icons/document-edit-line/64/Document-doc-file-paper-report-bundle-sheaf-128.png" width="50" height="50"/>
+            <b>Apply for stydying</b>
+            </p>
+        </div>
+        <div class="picture">
+            <img src="https://lh3.googleusercontent.com/proxy/Mk1G5VkPc2hV4w53_yawvQo-p0FUWTYs9nNfxF-qP_-oUPUmJ9Y3eAXkBDzDSZeLZFeEvg4cnX32I7IFmiJrOsIWkatD4QSL2TOAyVpz7IFjz8idfQ3RS8F6JlKxQ3K5FA9e" width="100%">
+        </div>
+    </div>
+</div>
+
+<main class="section">
+    <div class="container">
+        <div class="infor1">
+            <h1>GET YOUR INFORMATION</h1>
+            <p>Welcome to Anh Hoa Bakery </br>We need to have your information to contact to you for supporting</p>
+        </div>
+        <div class="infor2">
+            <h3><b>Full name</b></h3><br>
+            <input type="text" name="full name" placeholder="Eg: Alica Critina" required><br>
+            <h3><b>Your date of birth</b></h3><br>
+            <input type="date" name="birthday" required>
+            <h3><b>Your sex</b></h3><br>
+             <input type="radio" name="Male/Femal" required><br>
+            <h3>Email</h3><br>
+            <input type="email" name="email" placeholder="Eg:account@anhoa.vn"><br>
+            <h3><b>Telephone number</b></h3><br>
+            <input type="number" name="telephone" placeholder="Eg:0123456789"><br>
+            <h3><b>What kind of schedual would you like to joind?</b></h3><br>
+            <select name="choise" onchange="changeSelect(this)" required>
+                <option value="current">Sept 2021</option>
+                <option value="future">Jan 2022</option>
+                <option value="future">May 2022</option>
+                <option value="future">Sept 2022</option>
+            </select>
+        </div>
+    </div>
+</main>
+</body>
+</html>
