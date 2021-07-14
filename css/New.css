@@ -4,6 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color:#f8f2e8;
+}
 .container-1{
     margin-left: auto;
     margin-right: auto;
@@ -212,6 +215,9 @@
     z-index: 9;
     width: 100%;
 }
+.container-main{
+    background-color: #f8f2e8;
+}
 #cap h1{
     line-height: 300px;
     font-size: 40px;
@@ -225,16 +231,22 @@
 .box-khung{
     height: 1700px;
     width: 1120px;
-    margin-left: 210px;
+    margin-left: 250px;
     margin-top: 50px;
 }
 .box-khung .box1{
-    width: 255px;
-    height: 430px;
-    background-color: #ffe7af;
+    width: 299px;
+    height: 420px;
+    background-color: #ffffff;
     float: left;
     margin-top: 40px;
-    margin-left: 90px;
+    margin-left: 30px;
+}
+.box1{
+    border-radius: 5px;
+}
+.thanh{
+    width: 70%;
 }
 .box-khung img{
     width: 100%;
@@ -250,6 +262,13 @@
 .box-khung p{
     font-size: 12px;
     margin: 5px;
+}
+.box1:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.box1:hover h2 a{
+    color: #c0c906;
 }
 /* phần cuối */
 .footer1{
