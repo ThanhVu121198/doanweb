@@ -421,7 +421,6 @@
 .summer-khung{
     margin-top: 60px;
     overflow: hidden;
-    margin-left: 20p;
 }
 .summer-box{
     overflow: hidden;
@@ -444,6 +443,8 @@
 .summer-box .ba {
     font-size: 17px;
     text-align: center;
+   position: relative;
+    top: 5px;
 }
 .summer-box p{
     text-align: center;
